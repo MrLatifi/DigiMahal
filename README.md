@@ -45,7 +45,7 @@ This Project that coded for Basics of Programming, is coded by C++ programming l
 
 
 # Mail (Calculating Post with Evidence Based Data)
-The Iran provinces Distance from Tehran (Mahalle).
+Distance of Iranian provinces from Tehran (Mahalle).
 ![Mail](https://user-images.githubusercontent.com/49282989/152128515-7f500895-70d8-4154-9197-1649afa3b404.png)
 
 # A Hot Picture when Coding

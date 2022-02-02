@@ -11,9 +11,30 @@ This Project that coded for Basics of Programming, is coded by C++ programming l
 2) Login and SignUp with save and load in Files
 3) 2Panel(one of this for Customer and another for Company)
 4) Logo_page and End_page
-5) a Powerfull Search System for Company
+5) A Powerfull Search System for Company
 
 # Proposal
 [Proposal.pdf](https://github.com/MrLatifi/DigiMahal/files/7985084/Proposal.pdf)
 
-# 
+# Struct of Program
+1) Save
+2) Load
+3) Logo
+4) Welcome
+5) Login
+6) SignUp
+7) Company_Menu
+8) Input_Data_Of_Goods
+9) Search_In_Goods
+10) Search_In_Persons
+11) Delete_Goods
+12) Customer_Menu
+13) Category
+14) List_of_Goods
+15) Information
+16) Orders
+17) Color
+18) Prices
+19) Mail
+20) Sale_Facture
+21) End

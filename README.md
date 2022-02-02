@@ -12,6 +12,7 @@ This Project that coded for Basics of Programming, is coded by C++ programming l
 3) 2Panel(one of this for Customer and another for Company)
 4) Logo_page and End_page
 5) A Powerfull Search System for Company
+6) Mail and Post system
 
 # Proposal
 [Proposal.pdf](https://github.com/MrLatifi/DigiMahal/files/7985084/Proposal.pdf)
@@ -38,3 +39,7 @@ This Project that coded for Basics of Programming, is coded by C++ programming l
 19) Mail
 20) Sale_Facture
 21) End
+
+# Mail (Calculating Post with Evidence Based Data)
+Iran provinces Distance from Tehran (Mahalle).
+![Mail](https://user-images.githubusercontent.com/49282989/152128515-7f500895-70d8-4154-9197-1649afa3b404.png)

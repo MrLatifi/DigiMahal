@@ -1,0 +1,53 @@
+1_Poco M3_Phone_4200000_
+2_Poco X3_Phone_6950000_
+3_Asus Zenfon_Phone_3000000_
+4_Samsung S7_Phone_5000000_
+5_LG m33_Phone_3000000_
+6_Nokia_Phone_400000_
+7_Nokia m12_Phone_1200000_
+8_Samsung A71_Phone_9000000_
+9_Samsung A21_Phone_7000000_
+10_Silver_Phone_3000000_
+11_Apple_Phone_32000000_
+12_Smart_Phone_400000_
+13_TUF Gaming_Laptop_40000000_
+14_Hp _Laptop_22000000_
+15_Asus n1_Laptop_12000000_
+16_Lenovo_Laptop_10000000_
+17_Dell_Laptop_12000000_
+18_Apple_Laptop_100000000_
+19_Hp B38_Laptop_20000000_
+20_Asus L12_Laptop_21000000_
+21_Dell B41_Laptop_40000000_
+22_Apple ssd_Laptop_40000000_
+23_Lenovo B09_Laptop_3000000_
+24_Dell Gaming_Laptop_30000000_
+25_Samsung 38_TV_7000000_
+26_Samsung 42_TV_8000000_
+27_LG 42_TV_80000000_
+28_Daewoo_TV_5000000_
+29_Samsung smart 48_TV_12000000_
+30_Samsung S38_TV_10000000_
+31_LG S32_TV_13000000_
+32_LG S43_TV_12500000_
+33_Snowa_TV_8000000_
+34_Snowa Smart_TV_12000000_
+35_Daewoo Smart_TV_14000000_
+36_ParsTv_TV_1200000_
+37_Peugeo 405_Car_300000000_
+38_Peugeo 405 GLX_Car_140000000_
+39_Peugeo_Car_120000000_
+40_Pride_Car_110000000_
+41_Pride 131_Car_125000000_
+42_Peugeo 206_Car_255000000_
+43_Peugeo 206 TU5_Car_260000000_
+44_Peugeo 407_Car_1200000000_
+45_Samand_Car_30000000_
+46_Rana_Car_195000000_
+47_Hayma S5_Car_750000000_
+48_Hayma S7_Car_940000000_
+49_Gloves_Sport_100000_
+50_Tshirt_Sport_125500_
+51_Hat_Sport_55000_
+52_Shoes_Sport_224000_
+53_Ball_Sport_199900_

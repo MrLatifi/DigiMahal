@@ -1,0 +1,5 @@
+Phone_12_1_
+Laptop_12_2_
+TV_12_3_
+Car_12_4_
+Sport_5_5_

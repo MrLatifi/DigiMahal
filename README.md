@@ -13,3 +13,7 @@ This Project that coded for Basics of Programming, is coded by C++ programming l
 4) Logo_page and End_page
 5) a Powerfull Search System for Company
 
+# Proposal
+[Proposal.pdf](https://github.com/MrLatifi/DigiMahal/files/7985084/Proposal.pdf)
+
+# 

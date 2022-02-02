@@ -41,9 +41,12 @@ This Project that coded for Basics of Programming, is coded by C++ programming l
 21) End
 
 
+![StructOfProgram](https://user-images.githubusercontent.com/98875117/152227450-e8531d27-e7e9-46c5-b9a6-bfd4f3588569.png)
+
 # Mail (Calculating Post with Evidence Based Data)
 Distance of Iranian provinces from Tehran (Mahalle).
 ![Mail](https://user-images.githubusercontent.com/49282989/152128515-7f500895-70d8-4154-9197-1649afa3b404.png)
 
 # A Hot Picture when Coding
 ![When_Coding](https://user-images.githubusercontent.com/49282989/152129796-9713748c-3b18-4b04-a0ec-6c583cce731c.png)
+

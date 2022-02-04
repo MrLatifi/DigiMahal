@@ -1,5 +1,5 @@
 # DigiMahal
-DigiMahal is the First Project of Our Team in Sharif University of Technology for Basics of Programming That in this Code we Implemented an Online Shop like DigiKala.
+DigiMahal is the First Project of Our Team in Sharif University of Technology (Tehran) for Basics of Programming That in this Code we Implemented an Online Shop like DigiKala.
 
 ![Logo](https://user-images.githubusercontent.com/49282989/152124208-ae738933-0b88-41db-9590-0535ab442a68.gif)
 

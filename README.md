@@ -13,6 +13,7 @@ This Project that coded for Basics of Programming, is coded by C++ programming l
 4) Logo_page and End_page
 5) A Powerfull Search System for Company
 6) Mail and Post system
+7) Print Characters With Stars at End.
 
 # Proposal
 [Proposal.pdf](https://github.com/MrLatifi/DigiMahal/files/7985084/Proposal.pdf)
@@ -49,4 +50,10 @@ Distance of Iranian provinces from Tehran (Mahalle).
 
 # A Hot Picture when Coding
 ![When_Coding](https://user-images.githubusercontent.com/49282989/152129796-9713748c-3b18-4b04-a0ec-6c583cce731c.png)
+
+# Any Characters With Stars
+Print a Text with Your Name at End of Program with stars.
+
+![YourName](https://user-images.githubusercontent.com/49282989/152505852-cc67ef35-f653-463f-bb53-96805bec5625.gif)
+
 

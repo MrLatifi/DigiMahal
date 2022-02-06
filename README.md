@@ -41,6 +41,8 @@ This Project that coded for Basics of Programming, is coded by C++ programming l
 20) Sale_Facture
 21) End
 
+22) History_Of_Orders (Issue)
+
 
 ![StructOfProgram](https://user-images.githubusercontent.com/98875117/152227450-e8531d27-e7e9-46c5-b9a6-bfd4f3588569.png)
 

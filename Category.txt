@@ -2,4 +2,10 @@ Phone_12_1_
 Laptop_12_2_
 TV_12_3_
 Car_12_4_
-Sport_5_5_
+Sport_12_5_
+Bicycle_10_6_
+Book_15_7_
+Carpet_15_8_
+Robotic_15_9_
+Wrist Watch_10_10_
+Camera_10_11_

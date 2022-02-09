@@ -16,7 +16,7 @@ using namespace std;
 #define G 200                                                             // Number of Goods
 #define L 30                                                              // x axis of Logo Screen
 #define C 55                                                              // x axis of each Screen
-#define F 20                                                              // minesing C for Place of THANK YOU FOR BUYING
+#define F 35                                                              // minesing C for Place of THANK YOU FOR BUYING
 //------------------------------------------ Definition of Data Structures & variables ---------------------------------------------
 int ID;                                                                //Id of each person for know who is it(search)
 int Type = -1;                                                         //Type of each persno for know which access who has.
@@ -1096,14 +1096,14 @@ void Sale_Facture(void){
 	gotoxy(C,N+17+2*NSgoods);cout<<C1+color+"================================================================================\n"+C2;
 	gotoxy(C+10,N+16+2*NSgoods);cout<<C1+color+       "Total price including 9% TAX and postage           : "+to_string(Payment+Mail_Payment)+"T"+C2;
 	getch();
-	/*system("cls");
+	system("cls");
 	Color();         
 			gotoxy(C-F,N+14);cout<<C1+color+"******* *     *     *     *     *  *   *    *    *     **    *    *    * * * *    **    * * *     * * *   *    *  * * * *  *****  *      *    ***   \n"+C2;
 			gotoxy(C-F,N+15);cout<<C1+color+"   *    *     *   *   *   **    *  * *      *    *   *    *  *    *    *        *    *  *    *    *    *  *    *  *          *    **     *  *       \n"+C2;
 			gotoxy(C-F,N+16);cout<<C1+color+"   *    * * * *  * * * *  *  *  *  *          * **   *    *  *    *    * * * *  *    *  * * *     * * *     * **  * * * *    *    *  *   *  *   *** \n"+C2;
 			gotoxy(C-F,N+17);cout<<C1+color+"   *    *     *  *     *  *    **  * *      *    *   *    *  *    *    *        *    *  * *       *    *  *    *  *          *    *    * *  *    *  \n"+C2;
 			gotoxy(C-F,N+18);cout<<C1+color+"   *    *     *  *     *  *     *  *   *      * *      **      * *     *          **    *   *     * * *     ***   * * * *  *****  *      *    **    \n"+C2;
-    getch();*/
+    	getch();
 	Tamam=1;
 }
 //-------------------------------------------------------- 19) info -------------------------------------------------------------------------

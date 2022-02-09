@@ -133,3 +133,4 @@
 133_Lomography_Camera_9000000_
 134_Garmin_Camera_7500000_
 135_Pentax_Camera_5000000_
+136_Sony V2_Camera_4000000_

@@ -28,7 +28,7 @@ string Chert,Chert2;                                                   //for tra
 string color;
 int counter=0;
 int Scategory;                                                         //Selected Category
-int NSgoods=0;                                                         //Number of Goods in Selected Category
+int NSgoods=0;                                                         //Number of Selected Goods
 int Payment=0;                                                         //Price of Goods(whithout mail)
 int Mail_Payment=0;                                                    //Price of Mail
 int Tamam=0;                                                           //exit from the Application
@@ -74,13 +74,12 @@ struct Category{
 	int ID;
 }; struct Category Cat[200];
 
-struct SGoods{                                                             
+struct SGoods{                                                             //Information of Selected goods                                                             
 	int Code;
 	int Number;
 }; struct SGoods SCat[100];
 //-------------------------------------------------- Define Essential Function ---------------------------------------------------------------
-void gotoxy(int x, int y)                                              //Making gotoxy() function
-{
+void gotoxy(int x, int y){                                                 //Making gotoxy() function
     COORD coord;
     coord.X = x;
     coord.Y = y;
@@ -143,7 +142,7 @@ int main(){
 void Save(void){                     //the algorithm of save and load is making a line of string and seprate they with each other with _ and using endl
 	string str;
 
-	ofstream fc;                     //file counts
+	ofstream fc;                     //file counts       // output fstream >> Write
 	fc.open("Count.txt");
 	fc << pcount << endl << gcount << endl << ccount;
 	fc.close();
@@ -803,21 +802,16 @@ void Customers_Menu(void)
 		try{
 			stoi(Chert);	
 		}catch(exception &err){
-			for(k=1;k<pcount;k++)
-				if(ID==person[k].ID){
-					break;
-				}
-			gotoxy(C+7,N+11);cout<<C1+Yellow+person[k].First_name+C2+" You Can Use (1 or 2 or 3 or b/B) Nothing Else."; usleep(2000000);continue;
+			gotoxy(C+7,N+11);cout<<C1+Yellow+person[ID].First_name+C2+" You Can Use (1 or 2 or 3 or b/B) Nothing Else."; usleep(2000000);continue;
 		}
 		
-		//switch(stoi(Chert))
 		switch (stoi(Chert))
 		{
 			case 1:
 				Information();
 				break;
 			case 2:
-			    Orders();
+			    	Orders();
 				break;
 			case 3:
 				Category();
@@ -842,7 +836,7 @@ void Category(void)
 		gotoxy(C,N+2);      cout<<C1+color+"================================================================================"+C2;
 		gotoxy(C,N+3);      cout<<C1+color+"=====            Enter Digit Of Category From The Down List.               ====="+C2;
 		gotoxy(C,N+4);      cout<<C1+color+"================================================================================"+C2;//L=80.
-		gotoxy(C,N+5);		cout<<C1+color+"=====                                                                      ====="+C2;
+		gotoxy(C,N+5);	    cout<<C1+color+"=====                                                                      ====="+C2;
 		int aa=N+5; int i;
 		for(i=1;i<=ccount;i++){
 			 gotoxy(C,i+aa);cout<<C1+color+"=====                                                                      ====="+C2; 

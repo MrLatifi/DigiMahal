@@ -5,9 +5,9 @@
 #include<string.h>
 #include<cstring>                                                      //working with string in better(getline)
 #include<windows.h>                                                    //coordinate(gotoxy,clrscr)
-#include<unistd.h>                                                    //Time(sleep)
+#include<unistd.h>                                                     //Time(sleep)
 #include<fstream>                                                      //work with files(Load,Save)
-#include<algorithm>
+#include<algorithm>                                                    //uppercase the word
 
 using namespace std;
 //----------------------------------------------- Definition of Constant Values ----------------------------------------------------
@@ -20,20 +20,18 @@ using namespace std;
 //------------------------------------------ Definition of Data Structures & variables ---------------------------------------------
 int ID;                                                                //Id of each person for know who is it(search)
 int Type = -1;                                                         //Type of each persno for know which access who has.
-int Price;                                                             //Price of orders he/she want to buy
-int mail;                                                              //Price of Mail
 int pcount=0;                                                          //Number of Persons that SignIn
 int gcount=0;                                                          //Number of Goods
 int ccount=0;
 string Code = "DigiMahal!13812";                                       //The code that if someone write it we know hi/she is employee.
-string Chert,Chert2;                                                          //for transformating str to int with stoi()
+string Chert,Chert2;                                                   //for transformating str to int with stoi()
 string color;
 int counter=0;
-int Scategory;
-int NSgoods=0;
-int Payment=0;
-int Mail_Payment=0;
-int Tamam=0;
+int Scategory;                                                         //Selected Category
+int NSgoods=0;                                                         //Number of Goods in Selected Category
+int Payment=0;                                                         //Price of Goods(whithout mail)
+int Mail_Payment=0;                                                    //Price of Mail
+int Tamam=0;                                                           //exit from the Application
 
 string C1 ="\x1B[";                                                    //Coloring
 string C2 ="\033[0m";
@@ -76,7 +74,7 @@ struct Category{
 	int ID;
 }; struct Category Cat[200];
 
-struct SGoods{
+struct SGoods{                                                             
 	int Code;
 	int Number;
 }; struct SGoods SCat[100];
@@ -1054,7 +1052,6 @@ void Orders (void){
 }
 //-------------------------------------------------------- 16) Price ------------------------------------------------------------------------
 void Prices(void){
-	Price=0;
 	for(int i=1;i<=NSgoods;i++)
 		Payment+=goods[SCat[i].Code].Goods_price*SCat[i].Number;
 	Payment*=1.09;

@@ -8,4 +8,4 @@ Book_15_7_
 Carpet_15_8_
 Robotic_15_9_
 Wrist Watch_10_10_
-Camera_10_11_
+Camera_11_11_
